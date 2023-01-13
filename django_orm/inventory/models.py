@@ -6,7 +6,7 @@ class Brand(models.Model):
     name = models.CharField(max_length=50)
 
     def __str__(self) -> str:
-        return f"Name: {self.name}"
+        return f"Brand name: {self.name}"
 
 class Category(models.Model):
     name = models.CharField(max_length=50)
@@ -32,7 +32,6 @@ class Product(models.Model):
 
     def __str__(self):
         return f"Product name: {self.name}"
-
 
 class Stock(models.Model):
     units = models.BigIntegerField()
