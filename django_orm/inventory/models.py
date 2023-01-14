@@ -1,4 +1,5 @@
 from django.db import models
+from django.utils import timezone
 
 
 class Brand(models.Model):
@@ -16,12 +17,15 @@ class Category(models.Model):
 
 
 class Product(models.Model):
-    name = models.CharField(max_length=10)
+    name = models.CharField("Product Name", max_length=10, blank=True)
     price = models.DecimalField(max_digits=5, decimal_places=2)
     date_added = models.DateTimeField(auto_now_add=True)
     date_updated = models.DateTimeField(auto_now=True)
     url = models.SlugField()
     is_active = models.BooleanField()
+
+    def __str__(self) -> str:
+        return f"Product name: {self.name}"
 
 class Stock(models.Model):
     units = models.BigIntegerField()
