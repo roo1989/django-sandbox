@@ -1,5 +1,5 @@
 """
-ASGI config for realtor_django_scraper project.
+ASGI config for coronavstech project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "realtor_django_scraper.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "coronavstech.settings")
 
 application = get_asgi_application()
