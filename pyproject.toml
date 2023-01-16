@@ -15,6 +15,7 @@ Scrapy = "^2.7.1"
 black = "^22.12.0"
 pylint = "^2.15.10"
 psycopg2 = "^2.9.5"
+scrapy-djangoitem = "^1.1.1"
 
 
 [build-system]
