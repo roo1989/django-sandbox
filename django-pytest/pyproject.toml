@@ -7,10 +7,10 @@ readme = "README.md"
 packages = [{include = "django_pytest"}]
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = "^3.10"
+djangorestframework = "^3.14.0"
 
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
-

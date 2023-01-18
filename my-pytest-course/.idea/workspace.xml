@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="89fe0793-2dac-461d-a786-66c8dd3f91da" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../django-pytest/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../django-pytest/.idea/django-pytest.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../django-pytest/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../django-pytest/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../django-pytest/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../django-pytest/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../django-pytest/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../django-pytest/api/companies/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../django-pytest/api/companies/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../django-pytest/api/companies/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../django-pytest/api/companies/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../django-pytest/api/companies/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../django-pytest/api/companies/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../django-pytest/api/companies/serializers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../django-pytest/api/companies/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../django-pytest/api/companies/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../django-pytest/api/companies/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../django-pytest/api/coronavstech/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../django-pytest/api/coronavstech/asgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../django-pytest/api/coronavstech/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../django-pytest/api/coronavstech/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../django-pytest/api/coronavstech/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../django-pytest/api/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../django-pytest/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/../django-pytest/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../poetry.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyproject.toml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2KVdYq0WXp4ENrHdJuX6pL96msh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/ragnar.olafsson/dev/github/django-sandbox/my-pytest-course",
+    "nodejs_package_manager_path": "npm"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="89fe0793-2dac-461d-a786-66c8dd3f91da" name="Changes" comment="" />
+      <created>1674063734277</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1674063734277</updated>
+      <workItem from="1674063736676" duration="741000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
