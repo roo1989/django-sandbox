@@ -9,6 +9,8 @@ packages = [{include = "django_pytest"}]
 [tool.poetry.dependencies]
 python = "^3.10"
 djangorestframework = "^3.14.0"
+pytest = "^7.2.1"
+pytest-django = "^4.5.2"
 
 
 [build-system]
