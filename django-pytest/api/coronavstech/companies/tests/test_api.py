@@ -1,3 +1,4 @@
+from datetime import datetime
 import json
 import pytest
 
@@ -51,4 +52,11 @@ class TestPostCompanies(BasicCompanyAPITestCase):
         )
 
     def test_create_company_only_with_name_all_fields_should_default_to_model_defaults(self) -> None:
-        pass
+        post_response = self.client.post(self.companies_url, data={"name": "Google"})
+        post_response_json = json.loads(post_response.content)
+        self.assertEqual(post_response.status_code, 201)
+        self.assertEqual(post_response_json.get("name"), "Google")
+        self.assertEqual(post_response_json.get("status"), "Hiring")
+        self.assertEqual(post_response_json.get("last_update"), datetime.now())
+        self.assertEqual(post_response_json.get("application_link"), "")
+        self.assertEqual(post_response_json.get("notes"), "")
