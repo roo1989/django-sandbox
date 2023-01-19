@@ -1,4 +1,3 @@
-from datetime import datetime
 import json
 import pytest
 
@@ -29,7 +28,7 @@ class TestGetCompanies(BasicCompanyAPITestCase):
         response_content = json.loads(response.content)[0]
         self.assertEqual(response.status_code, 200)
         self.assertEqual(response_content.get("name"), test_company.name)
-        self.assertEqual(response_content.get("status"), "Hiring")
+        self.assertEqual(response_content.get("status"), Company.CompanyStatus.HIRING)
         self.assertEqual(response_content.get("application_link"), "")
         self.assertEqual(response_content.get("notes"), "")
 
@@ -56,7 +55,26 @@ class TestPostCompanies(BasicCompanyAPITestCase):
         post_response_json = json.loads(post_response.content)
         self.assertEqual(post_response.status_code, 201)
         self.assertEqual(post_response_json.get("name"), "Google")
-        self.assertEqual(post_response_json.get("status"), "Hiring")
-        self.assertEqual(post_response_json.get("last_update"), datetime.now())
+        self.assertEqual(post_response_json.get("status"), Company.CompanyStatus.HIRING)
         self.assertEqual(post_response_json.get("application_link"), "")
         self.assertEqual(post_response_json.get("notes"), "")
+
+    def test_create_company_with_layoff_status_should_succeed(self) -> None:
+        post_response = self.client.post(self.companies_url, data={"name": "Test company", "status": Company.CompanyStatus.LAYOFFS})
+        post_response_json = json.loads(post_response.content)
+        self.assertEqual(post_response.status_code, 201)
+        self.assertEqual(post_response_json.get("status"), Company.CompanyStatus.LAYOFFS)
+
+    def test_create_company_with_wrong_status_should_fail(self) -> None:
+        post_response = self.client.post(self.companies_url, data={"name": "Test company 2", "status": "WrongStatus"})
+        self.assertEqual(post_response.status_code, 400)
+        self.assertIn("WrongStatus", str(post_response.content))
+        self.assertIn("is not a valid choice", str(post_response.content))
+
+    @pytest.mark.xfail
+    def test_should_be_ok_if_fails(self) -> None:
+        self.assertEqual(1, 2)
+
+    @pytest.mark.skip
+    def test_should_be_skipped(self) -> None:
+        self.assertEqual(1, 2)
