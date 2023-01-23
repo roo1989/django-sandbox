@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "drf-auth-test"
+version = "0.1.0"
+description = "Me playing around with authentication for learning purposes"
+authors = ["Ragnar Olafsson <ragnar.orn@gmail.com>"]
+readme = "README.md"
+packages = [{include = "drf_auth_test"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+djangorestframework = "^3.14.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

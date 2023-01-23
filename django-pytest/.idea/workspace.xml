@@ -2,28 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7e119bc-a451-4ecb-926b-dafaacbc67ba" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/django-pytest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/django-pytest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/companies/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/coronavstech/companies/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/companies/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/companies/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/companies/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/companies/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/coronavstech/companies/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/companies/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/companies/serializers.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/companies/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/companies/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/companies/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/coronavstech/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/coronavstech/asgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/coronavstech/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/coronavstech/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/coronavstech/wsgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/manage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../poetry.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pyproject.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +136,7 @@
       <workItem from="1673819016066" duration="178000" />
       <workItem from="1673819211836" duration="2197000" />
       <workItem from="1673955015738" duration="8054000" />
-      <workItem from="1674065391128" duration="1432000" />
+      <workItem from="1674065391128" duration="2938000" />
     </task>
     <servers />
   </component>
